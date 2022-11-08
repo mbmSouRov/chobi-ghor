@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import ServiceCard from "./ServiceCard";
 
 const Section2 = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("services.json")
+    fetch("http://localhost:5000/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, [services]);
@@ -16,6 +17,9 @@ const Section2 = () => {
           <ServiceCard key={service.service_id} data={service}></ServiceCard>
         ))}
       </div>
+      <button className="btn btn-primary my-10">
+        <Link to={"/allServices"}>See All</Link>
+      </button>
     </div>
   );
 };

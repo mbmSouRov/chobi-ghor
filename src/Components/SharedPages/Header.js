@@ -30,7 +30,7 @@ const Header = () => {
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <Link>HOME</Link>
+                  <Link to={"/"}>HOME</Link>
                 </li>
 
                 <li>
@@ -43,7 +43,7 @@ const Header = () => {
           <div className="navbar-start hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
               <li>
-                <Link>HOME</Link>
+                <Link to={"/"}>HOME</Link>
               </li>
               <li>
                 <Link>BLOG</Link>
