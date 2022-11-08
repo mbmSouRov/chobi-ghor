@@ -2,7 +2,7 @@ import React from "react";
 
 const Section3 = () => {
   return (
-    <div className="stats shadow">
+    <div className="stats shadow my-10">
       <div className="stat">
         <div className="stat-figure text-primary">
           <svg

@@ -2,7 +2,7 @@ import React from "react";
 
 const Section4 = () => {
   return (
-    <div>
+    <div className="my-10">
       <div className="stack">
         <div className="card shadow-md bg-primary text-primary-content">
           <div className="card-body">
