@@ -1,158 +1,44 @@
 [
   {
-    "_id": "635a0c0b64a6d231228942ae",
-    "service_id": "04",
-    "title": "Engine Oil Change",
-    "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-    "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "service_id": 0,
+    "title": "Boudoir portraits.",
+    "description": "Boudoir portraits have also been a part of my business since I began shooting weddings. Brides often reach out to me to document them before their wedding as a gift to their future spouse. It’s an extraordinary time to create portraits and it becomes an extraordinary gift for any newlywed to receive!",
+    "price": 20134,
+    "img": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/314039957_5385438588233869_7085604101011631724_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeERMrHllo-Qf-IXnCKWV9nIqonHIU4qIAmqicchTiogCRwmh1zoJBGYsC1PleTgLDbZ-Sz6AF39OHsYL-AR7KCn&_nc_ohc=t_TAbF6IzIQAX-AG5rT&_nc_ht=scontent.fdac27-2.fna&oh=00_AfBTRC-e7JR7S6m_ozYaF8rMw2poP48HKp98I3sC5IHwLw&oe=636F659A"
   },
   {
-    "_id": "635a0c0b64a6d231228942af",
-    "service_id": "05",
-    "title": "Battery Charge",
-    "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-    "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "service_id": 1,
+    "title": "Bridal portraits.",
+    "description": "As a wedding photographer and portrait artist, I have always been drawn to beautifully editorial Bridal portraits.Sometimes there is a great opportunity to create these portrait images on the wedding day, but often the days are so fast-paced that there is no time for a portrait session to focus on just bridal images. For that reason, many brides choose to come into the studio for a separate session to highlight this incredible time in their lives.",
+    "price": 20305,
+    "img": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/313417189_5368712686573126_2127577372842888839_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFqqtHhCqr66kWtXhDxUdCMgoyimVDWRiKCjKKZUNZGItNRhQiUt54vQ65V72rbIaRqbr3lJUM-sbdnDo_EXEMU&_nc_ohc=PjCX6115GLIAX85n6uQ&_nc_ht=scontent.fdac27-2.fna&oh=00_AfD35tC3-JsYFq8subN38Pvqpxny_q1jbra_GYNvC6a4nQ&oe=636F4FE5"
   },
   {
-    "_id": "635b591a1dafe382a9da8c96",
-    "service_id": "01",
-    "title": "Full car Repair",
-    "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-    "price": "200.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "service_id": 2,
+    "title": "Maternity portraits.",
+    "description": "Maternity portraits are another one of my favorite types of portraits to create. I love documenting this incredibly pivotal time in the life of a new family.",
+    "price": 20991,
+    "img": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/300023024_1051287955754086_8979389375722150318_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHfDqs3Zw0lyXkBnHbzyvF2LXJC94vUsxwtckL3i9SzHNaR8Qk7gfaFUJDs9wEKmC1ZGPDFBf9rnwuMxnisGdr0&_nc_ohc=sXGZOIpDw8QAX93lwO8&_nc_ht=scontent.fdac27-2.fna&oh=00_AfDdr6S_nxGkeVbt5a9TXyhIrM23ziYIZEKBAMcuEf0hvg&oe=636E5174"
   },
   {
-    "_id": "635b5afc1dafe382a9da8c98",
-    "service_id": "02",
-    "title": "Engine Repair",
-    "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-    "price": "150.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "service_id": 3,
+    "title": "Family portraits.",
+    "description": "Family portraits have also been a great joy to create for clients over the years. My family portrait work began when my first wedding clients began having children, expanding their families and hearts. I have been documenting families ever since, both for my wedding clients and for new families that I meet along the way.",
+    "price": 20712,
+    "img": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/290285340_2556586954472143_441250307124602615_n.jpg?stp=dst-jpg_p960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH370ZLmAElRqjD_RJVoDikDLMrIwUFrJkMsysjBQWsmV2BwMfWSJEuo3KlpCG8i0oa05I56rJWdeQRTe-eqbhJ&_nc_ohc=qR5_wCCo_ykAX-9YODQ&_nc_ht=scontent.fdac27-2.fna&oh=00_AfCrAJyChaOqGmUyum_8KkYmXYgKxV5I2pPQ1W-R4m9M6w&oe=636E4AD6"
   },
   {
-    "_id": "635b5b691dafe382a9da8c99",
-    "service_id": "03",
-    "title": "Automatic Services",
-    "img": "https://i.ibb.co/wh7t3N3/555.jpg",
-    "price": "30.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "service_id": 4,
+    "title": "Senior portraits.",
+    "description": "I also cherish every high school senior that I get the chance to photograph. I well remember my own high school pictures, and it's such a delight to create those images for the seniors and their families.",
+    "price": 20441,
+    "img": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/299719293_363066012700788_1566694965291802730_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeH_2jiYJFcwxlsbf32q0X07mOdzbRLq_NSY53NtEur81MuN7ZEaQIcZ76Wu67QzjuEc5eNvd6ywo6YpJbReUaYh&_nc_ohc=Rh-s3sfMETUAX9ICkG9&_nc_ht=scontent.fdac27-2.fna&oh=00_AfBmG68WStyizfDyG-eXZMqEp9dobyWn-VIPJ_39FSxTHg&oe=636F72C0"
   },
   {
-    "_id": "635b5ba51dafe382a9da8c9a",
-    "service_id": "06",
-    "title": "Electrical System",
-    "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-    "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-    "facility": [
-      {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      },
-      {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-      }
-    ]
+    "service_id": 5,
+    "title": "Glamour-style portraits",
+    "description": "Photographing women has been a great love of mine since I can remember. Creating portraits that make women feel and look beautiful is such a joy, and I have been so honored to meet and work with the incredible women who have visited my studio over the years. My portraits touch on glamour with a beautifully nuanced editorial edge. The modern portraits that I will create for you mark this incredible time in your life, whether you’re celebrating a birthday, milestone, or just want to document your unique beauty at this moment, here and now.",
+    "price": 20619,
+    "img": "https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/283194437_1467599353699596_924873084416581466_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEp6pg0p5biJKjH9qn8wJEJYWBCC4Sd98hhYEILhJ33yC49xKl4Z1d30aIB-QM9GL5dqPIOLZryPDly556HLn1Q&_nc_ohc=tflcqThnFycAX8l8jhR&_nc_ht=scontent.fdac27-2.fna&oh=00_AfCe8-Rmn-t5Dn-tvhO_SpKYmw5OBfWpyUgn3jqCmzhpxw&oe=636F24E9"
   }
 ]

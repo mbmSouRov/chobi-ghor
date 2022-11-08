@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ServiceCard from "./ServiceCard";
 
 const Section2 = () => {
   const [services, setServices] = useState([]);
@@ -8,9 +9,13 @@ const Section2 = () => {
       .then((data) => setServices(data));
   }, [services]);
   return (
-    <div>
+    <div className="m-10">
       <p>Our Services</p>
-      <p>{services.length}</p>
+      <div className="grid grid-cols-3 gap-5">
+        {services.map((service) => (
+          <ServiceCard key={service.service_id} data={service}></ServiceCard>
+        ))}
+      </div>
     </div>
   );
 };
