@@ -78,9 +78,17 @@ const Header = () => {
               </button>
             )}
             {user && (
-              <button className="btn btn-ghost normal-case text-xl">
-                <Link onClick={handleSignOut}>SIGNOUT</Link>
-              </button>
+              <>
+                <button className="btn btn-ghost normal-case text-md">
+                  <Link to={"/myreviews"}>MY REVIEWS</Link>
+                </button>
+                <button className="btn btn-ghost normal-case text-md">
+                  <Link to={"/addservices"}>ADD SERVICES</Link>
+                </button>
+                <button className="btn btn-ghost normal-case text-md">
+                  <Link onClick={handleSignOut}>SIGNOUT</Link>
+                </button>
+              </>
             )}
           </div>
         </div>

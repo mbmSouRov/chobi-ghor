@@ -1,8 +1,12 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import { FaGoogle } from "react-icons/fa";
 const Login = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
+
   const { userLogIn, userLogInWithGoogle } = useContext(AuthContext);
 
   const handleOnSubmit = (e) => {
@@ -15,6 +19,7 @@ const Login = () => {
       .then((result) => {
         console.log("user is: ", result.user);
         form.reset();
+        navigate(from, { replace: true });
       })
       .catch((error) => {
         console.log("Something Wrong With Login", error.message);
@@ -26,6 +31,7 @@ const Login = () => {
     userLogInWithGoogle()
       .then((userInfo) => {
         console.log(userInfo.user);
+        navigate("/");
       })
       .catch((error) => {
         console.log(error.message);

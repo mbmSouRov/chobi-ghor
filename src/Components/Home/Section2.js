@@ -14,7 +14,7 @@ const Section2 = () => {
       <p>Our Services</p>
       <div className="grid grid-cols-3 gap-5">
         {services.map((service) => (
-          <ServiceCard key={service.service_id} data={service}></ServiceCard>
+          <ServiceCard key={service._id} data={service}></ServiceCard>
         ))}
       </div>
       <button className="btn btn-primary my-10">

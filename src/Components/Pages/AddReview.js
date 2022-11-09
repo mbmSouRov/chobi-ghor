@@ -42,7 +42,7 @@ const AddReview = ({ id }) => {
     <div>
       <p>Please Add reviews</p>
       {user ? (
-        <form onSubmit={handleOnSubmit} className="border-2 border-slate-600">
+        <form onSubmit={handleOnSubmit} className="border-2 border-slate-400">
           <div className="grid grid-cols-1 justify-items-center">
             <div className="flex">
               <input

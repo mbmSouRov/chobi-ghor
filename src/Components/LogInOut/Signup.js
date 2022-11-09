@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 
 const Signup = () => {
+  const navigate = useNavigate();
   const { userSignUp, updateUserProfile } = useContext(AuthContext);
 
   const handleOnSubmit = (e) => {
@@ -18,6 +19,7 @@ const Signup = () => {
         console.log(result.user);
         form.reset();
         handleUpdateProfile(name, photoURL);
+        navigate("/");
       })
       .catch((error) => {
         console.log(error.message);
