@@ -6,6 +6,7 @@ import Login from "../LogInOut/Login";
 import Signup from "../LogInOut/Signup";
 import AllServices from "../Pages/AllServices";
 import Service from "../Pages/Service";
+import PrivateRoutes from "./PrivateRoutes";
 
 const Routes = createBrowserRouter([
   {

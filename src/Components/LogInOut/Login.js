@@ -84,7 +84,7 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
               <button
                 onClick={handleGoogleLogIn}
-                className="btn btn-outline btn-success mt-2"
+                className="btn btn-outline btn-primary mt-2"
               >
                 <FaGoogle />
                 <p className="mx-2">Continue With Google</p>

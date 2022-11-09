@@ -1,8 +1,11 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import AddReview from "./AddReview";
+import SeeReview from "./SeeReview";
 
 const Service = () => {
-  const { title, img, description, price } = useLoaderData();
+  const { _id, title, img, description, price } = useLoaderData();
+  console.log(_id);
   return (
     <div>
       <div className="flex justify-center">
@@ -33,6 +36,8 @@ const Service = () => {
 
         <div className="w-2/5 p-10">
           <p className="text-3xl font-light">Review And Others</p>
+          <SeeReview id={_id}></SeeReview>
+          <AddReview id={_id}></AddReview>
         </div>
       </div>
     </div>
