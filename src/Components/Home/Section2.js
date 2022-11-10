@@ -10,9 +10,9 @@ const Section2 = () => {
       .then((data) => setServices(data));
   }, [services]);
   return (
-    <div className="m-10">
+    <div className="m-2 lg:m-10">
       <p>Our Services</p>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-col-1 lg:grid-cols-3 gap-1 lg:gap-5">
         {services.map((service) => (
           <ServiceCard key={service._id} data={service}></ServiceCard>
         ))}

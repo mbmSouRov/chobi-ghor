@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
+import useTitle from "../../hooks/useTitle";
 
 const Signup = () => {
+  useTitle("Signup");
   const navigate = useNavigate();
   const { userSignUp, updateUserProfile } = useContext(AuthContext);
 

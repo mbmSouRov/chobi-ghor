@@ -13,9 +13,52 @@ const Header = () => {
         console.log("Signing Out Failed", error.message);
       });
   };
+  const navItems = (
+    <ul className="menu menu-horizontal p-0">
+      <li>
+        <Link to={"/"}>HOME</Link>
+      </li>
+      <li>
+        <Link to={"/blog"}>BLOG</Link>
+      </li>
+      <li>
+        {user ? (
+          <button
+            className="btn btn-ghost normal-case text-xl"
+            title={user.displayName}
+          >
+            <div className="avatar">
+              <div className="w-7 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <img src={user.photoURL} alt="user" />
+              </div>
+            </div>
+          </button>
+        ) : (
+          <button className="btn btn-ghost normal-case text-xl">
+            <Link to={"/login"}>LOGIN</Link>
+          </button>
+        )}
+      </li>
+      <li>
+        {user && (
+          <>
+            <button className="btn btn-ghost normal-case text-md">
+              <Link to={"/myreviews"}>MY REVIEWS</Link>
+            </button>
+            <button className="btn btn-ghost normal-case text-md">
+              <Link to={"/addservices"}>ADD SERVICES</Link>
+            </button>
+            <button className="btn btn-ghost normal-case text-md text-red-900">
+              <Link onClick={handleSignOut}>SIGNOUT</Link>
+            </button>
+          </>
+        )}
+      </li>
+    </ul>
+  );
   return (
     <div>
-      <p>ছবি | Ghor</p>
+      <p className="justify-center">ছবি | Ghor</p>
       <div>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
@@ -41,56 +84,51 @@ const Header = () => {
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <Link to={"/"}>HOME</Link>
+                  <Link className="justify-center" to={"/"}>
+                    HOME
+                  </Link>
                 </li>
-
                 <li>
-                  <Link>BLOG</Link>
+                  <Link className="justify-center">BLOG</Link>
+                </li>
+                <li>
+                  {user ? (
+                    <button
+                      className="btn btn-ghost normal-case text-xl"
+                      title={user.displayName}
+                    >
+                      <div className="avatar">
+                        <div className="w-7 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                          <img src={user.photoURL} alt="user" />
+                        </div>
+                      </div>
+                    </button>
+                  ) : (
+                    <button className="btn btn-ghost normal-case text-xl">
+                      <Link to={"/login"}>LOGIN</Link>
+                    </button>
+                  )}
+                </li>
+                <li>
+                  {user && (
+                    <>
+                      <button className="btn btn-ghost normal-case text-md">
+                        <Link to={"/myreviews"}>MY REVIEWS</Link>
+                      </button>
+                      <button className="btn btn-ghost normal-case text-md">
+                        <Link to={"/addservices"}>ADD SERVICES</Link>
+                      </button>
+                      <button className="btn btn-ghost normal-case text-md text-red-900">
+                        <Link onClick={handleSignOut}>SIGNOUT</Link>
+                      </button>
+                    </>
+                  )}
                 </li>
               </ul>
             </div>
           </div>
-          <div className="navbar-start hidden lg:flex">
-            <ul className="menu menu-horizontal p-0">
-              <li>
-                <Link to={"/"}>HOME</Link>
-              </li>
-              <li>
-                <Link>BLOG</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="navbar-start">
-            {user ? (
-              <button
-                className="btn btn-ghost normal-case text-xl"
-                title={user.displayName}
-              >
-                <div className="avatar">
-                  <div className="w-7 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img src={user.photoURL} alt="user" />
-                  </div>
-                </div>
-              </button>
-            ) : (
-              <button className="btn btn-ghost normal-case text-xl">
-                <Link to={"/login"}>LOGIN</Link>
-              </button>
-            )}
-            {user && (
-              <>
-                <button className="btn btn-ghost normal-case text-md">
-                  <Link to={"/myreviews"}>MY REVIEWS</Link>
-                </button>
-                <button className="btn btn-ghost normal-case text-md">
-                  <Link to={"/addservices"}>ADD SERVICES</Link>
-                </button>
-                <button className="btn btn-ghost normal-case text-md">
-                  <Link onClick={handleSignOut}>SIGNOUT</Link>
-                </button>
-              </>
-            )}
-          </div>
+          <div className="navbar-center hidden lg:flex">{navItems}</div>
+          <div className="navbar-start"></div>
         </div>
       </div>
     </div>

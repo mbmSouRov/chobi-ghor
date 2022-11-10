@@ -6,6 +6,7 @@ import Login from "../LogInOut/Login";
 import Signup from "../LogInOut/Signup";
 import AddServices from "../Pages/AddServices";
 import AllServices from "../Pages/AllServices";
+import Blog from "../Pages/Blog";
 import Service from "../Pages/Service";
 import MyReviews from "../PrivatePages/MyReviews";
 import PrivateRoutes from "./PrivateRoutes";
@@ -52,6 +53,10 @@ const Routes = createBrowserRouter([
             <AddServices></AddServices>
           </PrivateRoutes>
         ),
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
       },
     ],
   },

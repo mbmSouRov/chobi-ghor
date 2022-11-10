@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const ServiceCard = ({ data }) => {
   const { _id, title, img, description, price } = data;
   return (
-    <div className="card w-96 mx-auto bg-base-100 shadow-xl ">
-      <figure className="px-10 pt-10">
+    <div className="card w-60 lg:w-96 mx-auto bg-base-100 shadow-xl ">
+      <figure className="px-2 lg:px-10 pt-10">
         <PhotoProvider>
           <PhotoView src={img}>
             <img src={img} alt="Shoes" className="rounded-xl" />

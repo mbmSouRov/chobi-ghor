@@ -2,7 +2,9 @@ import React, { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import { FaGoogle } from "react-icons/fa";
+import useTitle from "../../hooks/useTitle";
 const Login = () => {
+  useTitle("Login");
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
@@ -17,8 +19,27 @@ const Login = () => {
 
     userLogIn(email, password)
       .then((result) => {
-        console.log("user is: ", result.user);
+        const user = result.user;
+        // console.log("user is: ", user);
+
+        const currentUser = {
+          email: user.email,
+        };
+        console.log(currentUser);
         form.reset();
+        fetch("http://localhost:5000/jwt", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(currentUser),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+            localStorage.setItem("token", data.token);
+          });
+
         navigate(from, { replace: true });
       })
       .catch((error) => {
