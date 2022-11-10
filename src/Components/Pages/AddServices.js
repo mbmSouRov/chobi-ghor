@@ -1,8 +1,11 @@
 import React from "react";
 import useTitle from "../../hooks/useTitle";
-
+import toast, { Toaster } from "react-hot-toast";
 const AddServices = () => {
   useTitle("Add Service");
+  const toast1 = () => {
+    toast.success("Successfully Added!");
+  };
   const handleOnSubmit = (e) => {
     e.preventDefault();
 
@@ -30,8 +33,8 @@ const AddServices = () => {
       .then((data) => {
         console.log(data);
         if (data.acknowledged) {
+          // toast();
           form.reset();
-          //modal dekhano lagbe
         }
       })
       .catch((er) => console.log(er));
@@ -72,7 +75,10 @@ const AddServices = () => {
           className="input input-bordered input-md w-full max-w-xs"
           required
         />
-        <button className="btn btn-outline">Add Service</button>
+        <button onClick={toast1} className="btn btn-outline">
+          Add Service
+        </button>
+        <Toaster />
       </form>
     </div>
   );
