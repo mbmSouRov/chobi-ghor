@@ -16,10 +16,14 @@ const Header = () => {
   const navItems = (
     <ul className="menu menu-horizontal p-0">
       <li>
-        <Link to={"/"}>HOME</Link>
+        <Link className="btn btn-ghost normal-case text-xl" to={"/"}>
+          HOME
+        </Link>
       </li>
       <li>
-        <Link to={"/blog"}>BLOG</Link>
+        <Link className="btn btn-ghost normal-case text-xl" to={"/blog"}>
+          BLOG
+        </Link>
       </li>
       <li>
         {user ? (
@@ -42,13 +46,13 @@ const Header = () => {
       <li>
         {user && (
           <>
-            <button className="btn btn-ghost normal-case text-md">
+            <button className="btn btn-ghost normal-case text-lg">
               <Link to={"/myreviews"}>MY REVIEWS</Link>
             </button>
-            <button className="btn btn-ghost normal-case text-md">
+            <button className="btn btn-ghost normal-case text-lg">
               <Link to={"/addservices"}>ADD SERVICES</Link>
             </button>
-            <button className="btn btn-ghost normal-case text-md text-red-900">
+            <button className="btn btn-ghost normal-case text-lg text-red-900">
               <Link onClick={handleSignOut}>SIGNOUT</Link>
             </button>
           </>
@@ -58,7 +62,7 @@ const Header = () => {
   );
   return (
     <div>
-      <p className="justify-center">ছবি | Ghor</p>
+      <p className="justify-center text-3xl p-2 text-primary">ছবি | Ghor</p>
       <div>
         <div className="navbar bg-base-100">
           <div className="navbar-start">

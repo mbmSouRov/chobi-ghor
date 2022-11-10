@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Section1 = () => {
   return (
@@ -13,11 +14,16 @@ const Section1 = () => {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Are you a event manager, drone service providers, videographer and
+            you need an online presence to take your brand to the next level and
+            spice things up with perfect booking system that you desire??
+            <br />
+            If Yes, then you are at the right place, I will set up and build a
+            professional photography Website that will portrays your work.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-primary">
+            <Link to={"/allServices"}>Get Started</Link>
+          </button>
         </div>
       </div>
     </div>

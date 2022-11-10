@@ -87,7 +87,7 @@ const UserReviewsTable = ({ data }) => {
                       placeholder="Type here"
                       className="input input-bordered input-success w-full max-w-xs"
                     />
-                    <button className="btn btn-outline">UPDATE REVIEW</button>
+                    <button className="btn btn-outline">UPDATE</button>
                   </form>
                 }
 
