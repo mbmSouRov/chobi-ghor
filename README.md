@@ -1,3 +1,29 @@
+# ছবি | Ghor
+
+
+## Live Website: ()
+
+
+## Features
+* In this project the key feature is React, React Router, Firebase Authentication, MongoDB
+
+* All the services data showing in the homepage is dynamically comming from noSql database MongoDB
+
+* A user can give review of any services and their reviews will store on database. There are no fake data. Everything will be stored in database.
+
+* Users can also see their given review in "MY REVIEW" section. They can update their reviews or delete them manually.
+
+* Also a user can add services, but first they have to login. Otherwise it will redirect them to login page
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
