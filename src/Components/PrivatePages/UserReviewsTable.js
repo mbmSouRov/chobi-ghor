@@ -6,7 +6,7 @@ const UserReviewsTable = ({ data }) => {
   const [services, setServices] = useState("Undefined");
 
   useEffect(() => {
-    fetch(`http://localhost:5000/service/${service}`)
+    fetch(`https://chobi-ghor-server.vercel.app/service/${service}`)
       .then((res) => res.json())
       .then((data) => {
         setServices(data);
@@ -17,7 +17,7 @@ const UserReviewsTable = ({ data }) => {
     console.log(id);
     const proceed = window.confirm("Are your Sure You Want To Delete?");
     if (proceed) {
-      fetch(`http://localhost:5000/allReview/${id}`, {
+      fetch(`https://chobi-ghor-server.vercel.app/allReview/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -45,7 +45,7 @@ const UserReviewsTable = ({ data }) => {
     setTextAreas(newTextAreas);
     const x = id1;
     console.log("Funtion er niche id paitesi", x);
-    fetch(`http://localhost:5000/allReview/${id1}`, {
+    fetch(`https://chobi-ghor-server.vercel.app/allReview/${id1}`, {
       method: "PATCH",
       headers: {
         "content-type": "application/json",

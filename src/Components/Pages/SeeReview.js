@@ -7,7 +7,7 @@ const SeeReview = ({ id }) => {
   const [reviews, setReviews] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/allReviews?service=${id}`)
+    fetch(`https://chobi-ghor-server.vercel.app/allReviews?service=${id}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

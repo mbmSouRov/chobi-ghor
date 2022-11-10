@@ -10,11 +10,14 @@ const MyReviews = () => {
   const [userReviews, setUserReviews] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/userReviews?email=${user.email}`, {
-      headers: {
-        authorization: `Bearer ${localStorage.getItem("token")}`,
-      },
-    })
+    fetch(
+      `https://chobi-ghor-server.vercel.app/userReviews?email=${user.email}`,
+      {
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("token")}`,
+        },
+      }
+    )
       .then((res) => {
         if (res.status === 401 || res.status === 403) {
           signOut();

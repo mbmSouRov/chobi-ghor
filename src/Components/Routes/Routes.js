@@ -28,7 +28,7 @@ const Routes = createBrowserRouter([
         path: "/service/:id",
         element: <Service></Service>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/service/${params.id}`),
+          fetch(`https://chobi-ghor-server.vercel.app/service/${params.id}`),
       },
       {
         path: "/login",
