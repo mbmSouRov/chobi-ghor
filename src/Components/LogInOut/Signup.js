@@ -43,12 +43,10 @@ const Signup = () => {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="text-center lg:text-left w-1/4">
-          <h1 className="text-5xl font-bold">Signup now!</h1>
+        <div className="text-center lg:text-left">
+          <h1 className="text-5xl font-bold text-center">Signup now!</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Sign Up And Discover a great amount of new opportunities!
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

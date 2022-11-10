@@ -93,7 +93,9 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="justify-center">BLOG</Link>
+                  <Link className="justify-center" to={"/blog"}>
+                    BLOG
+                  </Link>
                 </li>
                 <li>
                   {user ? (
