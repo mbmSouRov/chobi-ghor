@@ -3,24 +3,28 @@ import React from "react";
 const Section4 = () => {
   return (
     <div className="my-10">
-      <div className="stack">
-        <div className="card shadow-md bg-primary text-primary">
+      <div className="mx-auto">
+        <div className="card shadow-md bg-primary text-primary w-4/5 mx-auto lg:w-full m-0 p-0">
           <div className="card-body">
             <div className="flex flex-col w-full lg:flex-row">
-              <div className="grid flex-grow h-max card bg-base-300 rounded-box place-items-center p-10">
-                <p className="text-2xl font-semibold my-2 ">
+              <div className="grid flex-grow h-max card bg-base-300 rounded-box place-items-center p-0 lg:p-10 justify-center">
+                <p className="text-md lg:text-2xl font-semibold my-2">
                   Contact information
                 </p>
-                <p className="text-xl font-light my-2">
+                <p className="text-sm lg:text-xl font-light my-2 text-slate-700">
                   See the location and mail in the given address.
                   <br />
                   We will contact with you within 24 hours.
                 </p>
-                <p className="text-xl font-light my-2">Phone: +8801874628178</p>
-                <p className="text-xl font-light my-2">
+                <p className="text-sm lg:text-xl font-light my-2">
+                  Phone: +8801874628178
+                </p>
+                <p className="text-sm lg:text-xl font-light my-2">
                   Email: mbmsourov@gmail.com
                 </p>
-                <p className="text-xl font-light my-2">Location: ঢাকা 1207</p>
+                <p className="text-sm lg:text-xl font-light my-2">
+                  Location: ঢাকা 1207
+                </p>
               </div>
               <div className="divider lg:divider-horizontal">OR</div>
               <div className="grid flex-grow h-80 w-80 card bg-base-300 place-items-center rounded-lg">
