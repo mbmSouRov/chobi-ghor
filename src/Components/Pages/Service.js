@@ -10,8 +10,8 @@ const Service = () => {
   const { _id, title, img, description, price } = useLoaderData();
   return (
     <div>
-      <div className="flex justify-center">
-        <div className="w-3/5 p-10">
+      <div className="flex-row lg:flex justify-center">
+        <div className="w-full lg:w-3/5 p-2 lg:p-10">
           <div>
             <p className="text-4xl font-light text-primary p-5">{title}</p>
           </div>
@@ -24,19 +24,19 @@ const Service = () => {
             </p>
           </div>
           <div className="mt-10">
-            <div className="collapse">
+            <div className="collapse justify-center">
               <input type="checkbox" className="peer" />
-              <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content  w-96 mx-auto">
-                Click here to see full Description
+              <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content w-60 lg:w-96 mx-auto">
+                <p className="ml-10">Click here to see full Description</p>
               </div>
-              <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content w-96 mx-auto">
+              <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content w-60 lg:w-96 mx-auto justify-center">
                 <p>{description}</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-2/5 p-10">
+        <div className="w-full lg:w-2/5 p-2 lg:p-10">
           <p className="text-3xl font-light">Review And Others</p>
           <SeeReview id={_id}></SeeReview>
 

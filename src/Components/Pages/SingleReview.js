@@ -3,7 +3,7 @@ import React from "react";
 const SingleReview = ({ data }) => {
   const { userImage, name, textArea } = data;
   return (
-    <div className="card w-96 bg-base-100 shadow-xl mx-auto my-3">
+    <div className="card w-60 lg:w-96 bg-base-100 shadow-xl mx-auto my-3">
       <div className="card-body">
         <h2 className="text-xl text-start flex items-center gap-2">
           <span>

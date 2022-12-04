@@ -1,8 +1,12 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
 
 const AddReview = ({ id }) => {
+  const toast1 = () => {
+    toast.success("Successfully Added!");
+  };
   const { user } = useContext(AuthContext);
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -74,8 +78,12 @@ const AddReview = ({ id }) => {
               name="textArea"
               className="textarea textarea-success w-full"
               placeholder="Write Review Here"
+              required
             ></textarea>
-            <button className="btn btn-outline my-2">Add Review</button>
+            <button onClick={toast1} className="btn btn-outline my-2">
+              Add Review
+            </button>
+            <Toaster />
           </div>
         </form>
       ) : (

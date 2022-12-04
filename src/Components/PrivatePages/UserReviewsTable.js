@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
-
+import toast, { Toaster } from "react-hot-toast";
 const UserReviewsTable = ({ data }) => {
+  const toast1 = () => {
+    toast.success("Deleted! Refresh The Page to see remainings");
+  };
+
   const { _id, service, textArea } = data;
 
   const [services, setServices] = useState("Undefined");
@@ -22,7 +26,7 @@ const UserReviewsTable = ({ data }) => {
       })
         .then((res) => res.json())
         .then((data) => {
-          alert("Deleted"); //Modal a dekhano lagbe, kaj baki
+          toast1(); //Modal a dekhano lagbe, kaj baki
           console.log(data);
         });
     }
@@ -106,6 +110,7 @@ const UserReviewsTable = ({ data }) => {
             >
               DELETE
             </button>
+            <Toaster />
           </div>
         </td>
       </tr>

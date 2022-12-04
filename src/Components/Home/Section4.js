@@ -27,7 +27,7 @@ const Section4 = () => {
                 </p>
               </div>
               <div className="divider lg:divider-horizontal text-white">OR</div>
-              <div className="grid flex-grow h-80 w-44 lg:w-80 card bg-base-300 place-items-center rounded-lg">
+              <div className="grid flex-grow h-80 w-48 lg:w-80 card bg-base-300 place-items-center rounded-lg">
                 <iframe
                   title="sd"
                   className="w-full h-full"

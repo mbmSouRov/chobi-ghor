@@ -11,7 +11,7 @@ const Section2 = () => {
   }, [services]);
   return (
     <div className="m-2 lg:m-10">
-      <p>Our Services</p>
+      <p className="text-xl lg:text-3xl font-semibold">Our Services</p>
       <div className="grid grid-col-1 lg:grid-cols-3 gap-1 lg:gap-5">
         {services.map((service) => (
           <ServiceCard key={service._id} data={service}></ServiceCard>
